@@ -1,0 +1,48 @@
+### 
+
+POST http://localhost:3000/api/auth/signup HTTP/1.1
+Content-Type: application/json
+
+{
+  "password": "TestUser123?",
+  "userName": "test"
+}
+
+
+### 
+
+POST http://localhost:3000/api/auth/signin HTTP/1.1
+Content-Type: application/json
+
+{
+  "password": "TestUser123?",
+  "userName": "test"
+}
+
+
+### 
+
+POST http://localhost:3000/api/order HTTP/1.1
+Content-Type: application/json
+
+{
+  "price": 100,
+  "qty": 2,
+  "side": "sell",
+  "symbol": "eth",
+  "type": "limit"
+}
+
+
+### 
+
+POST http://localhost:3000/api/order HTTP/1.1
+Content-Type: application/json
+
+{
+  "price": 100,
+  "qty": 4,
+  "side": "buy",
+  "symbol": "eth",
+  "type": "limit"
+}
