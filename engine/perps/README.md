@@ -59,7 +59,7 @@ Hour 5: ($120 - $100) × 2.5 = $20 × 2.5 = $50 → equals margin → liquidated
 
    Net unrealized PnL = +$100 - $200 = -$100 net loss
 
-   // Unrealized" means the user hasn't closed the position yet.
+<!--Unrealized means the user hasn't closed the position yet.-->
 
    User closes Position 1 (sells SOL at $110):
   +$100 realized profit → added to available balance
