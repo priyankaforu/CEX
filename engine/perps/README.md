@@ -9,15 +9,19 @@
 3. *short* (**liquidationPrice**) : `current price of the symbol` + `current price of the symbol / leverage` // for the sell/short 
 4. *long* (**liquidationPrice**) : `current price of the symbol` - `current price of the symbol / leverage` // for the buy/long
 
-### Rule Of Thumb
 
-          (current price * quantity)
-- margin = ------------------------
-                leverage
+### Rule of Thumb
 
-  margin    current price
-- ------ =  -------------
-   qty        leverage
+```
+              current price × quantity
+margin  =             ---
+                    leverage
+
+margin       current price
+---  =            ---
+ qty           leverage
+
+```
 
 
 ### How does the liquidation happen ?
